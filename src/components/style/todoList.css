@@ -1,0 +1,51 @@
+.todo-list-empty {
+  font-family: arial;
+  color: #FFF;
+}
+
+.todo-list-container {
+  text-align: center;
+  width: 95%;
+  background-color: #333;
+  list-style-type: none;
+  padding: 0.2rem 0.1rem;
+  border-radius: 10px;
+  margin: 0;
+}
+
+.todo-list-item {
+  background-color: #222;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 0.5rem;
+}
+
+.todo-list-item-container {
+  display: flex; justify-content: space-between; align-items: center;
+  width: 100%;
+}
+
+.todo-list-item-checkbox {
+  width: 20px; height: 20px;
+  margin-right: 2%;
+}
+
+.todo-list-item-text {
+  text-align: left;
+  font-family: arial;
+  width: 100%;
+  color: #FFF;
+}
+
+.todo-list-item-button {
+  display: inline-block;
+  background-color: #EEE;
+  padding: 0.1rem 0.5rem;
+  border: 3px solid #111;
+  border-radius: 10px;
+}
+
+.todo-list-item-button:hover {
+  background-color: #CECECE;
+  cursor: pointer;
+}

@@ -1,0 +1,9 @@
+.todo-status-container {
+  display: flex; justify-content: space-between;
+  width: 95%;
+}
+
+.todo-status-created, .todo-status-completed {
+  font-family: arial;
+  color: #FFF;
+}

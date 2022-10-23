@@ -1,0 +1,29 @@
+.todo-create-container {
+  display: flex; justify-content: center;
+  background-color: #333;
+  width: 95%;
+  padding: 0.5rem 0.1rem;
+  border-radius: 10px;
+}
+
+.todo-create-input {
+  display: inline-block;
+  width: 80%;
+  padding: 0.1rem 0.5rem;
+  border: 3px solid #111;
+  border-radius: 10px;
+  margin-right: 5px;
+}
+
+.todo-create-button {
+  display: inline-block;
+  background-color: #EEE;
+  padding: 0.1rem 0.5rem;
+  border: 3px solid #111;
+  border-radius: 10px;
+}
+
+.todo-create-button:hover {
+  background-color: #CECECE;
+  cursor: pointer;
+}
